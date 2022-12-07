@@ -3,7 +3,7 @@ export default function Resume() {
     <div className='resume'>
       
       <div className='resume-download'>
-        <a href='https://drive.google.com/file/d/1yPVq8H2XaLxpGT9dRZcTCde-7TRe03ms/view?usp=sharing' download='lujan.resume'>Resume (download available)</a>
+        <a href='https://drive.google.com/file/d/1x-TpEl96A-UGiOV63yJ-vMZYBHdos93Z/view?usp=sharing' download='lujan.resume'>Resume (download available)</a>
       </div>
       <br />
       <h3 className='skills--title'>Front-End Proficiencies</h3>
