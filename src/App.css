@@ -1,38 +1,172 @@
-.App {
-  text-align: center;
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: rgba(102, 100, 88, 0.633);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  display: flex;
+  padding: 0px 23px 0px 23px;
+  border: 0.5rem groove rgb(129, 128, 125);
+  margin-bottom: 2rem;
+  color: rgb(220, 220, 220);
+  min-width: 300px;
+  background-image: url("src/assets/images/vecteezy_long-banner-background_en0421_generated.jpg");
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.headshot {
+  max-height: 200px;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  border: 2px solid black;
+  box-shadow: 1px 1px 8px rgb(122, 151, 247);
+  border-radius: 100px;
+  justify-content: flex-end;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.my-name,
+.my-title,
+.alma-mater {
+  color: white;
+  font-weight: bolder;
+  text-shadow: 2px 1px 8px rgb(71, 112, 237);
+  font-size: 20px;
+}
+.my-title,
+.alma-mater {
+  padding-left: 0.5rem;
+}
+
+.my-name {
+  font-size: 40px;
+}
+
+/** NavBar Section */
+
+.nav--tabs {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-item {
+  padding: 10px;
+  list-style-type: none;
+}
+
+.nav-link-active {
+  color: rgb(71, 112, 237);
+}
+
+/** ProjectCard Section */
+
+.project--section {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 30px;
+  overflow-x: auto;
+  margin: 3rem;
+}
+
+.project--card {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  width: 300px;
+  min-width: 300px;
+  background-color: rgb(47, 84, 101);
+  border: 2px solid silver;
+  border-radius: 12px;
+}
+
+.card--header {
+  margin-bottom: 1rem;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.card--header,
+.card--footer {
+  background-color: rgb(190, 157, 11);
+}
+
+.card--footer {
+  border-radius: 0px 0px 8px 8px;
+}
+
+.card--title {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  color: rgb(47, 84, 101);
+  font-size: 20px;
+  padding-top: 8px;
+}
+
+.card--image {
+  height: 230px;
+  margin: 0rem 0.5rem 0rem 0.5rem;
+  border: 1px solid rgb(217, 184, 38);
+}
+
+.card--desc {
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: oblique;
+  line-height: 1.5rem;
+  margin: 1rem;
+  height: 120px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.card--footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem;
+  color: white;
+  font-family: Arial;
+  line-height: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.git--icon {
+  display: flex;
+  max-width: 2rem;
+}
+
+/** About Me Section */
+
+.aboutme--block {
+  display: flex;
+  align-items: center;
+  margin: 3rem;
+}
+
+.aboutme--text {
+  line-height: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 75%;
+}
+
+/** Resume Section */
+
+.resume {
+  margin: 3rem;
+}
+
+/** Contact Section */
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem;
+  line-height: 40px;
+}
+
+.email--link,
+.linkedin--link,
+.github--link {
+  text-decoration: none;
+}
+
+.phone--number {
+  margin: 0;
 }
