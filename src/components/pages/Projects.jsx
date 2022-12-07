@@ -6,13 +6,13 @@ export default function ProjectCard(props) {
       </div>
       
       <img
-        src={`src/assets/images/${props.img}`}
+        src={require(`../../assets/images/${props.img}`)}
         className='card--image' />
       <h3 className='card--desc'>{props.desc}</h3>
       <footer className='card--footer'>
       <p>Deployed on</p>
         <a href={props.online}>`<img
-            src='../src/assets/images/heroku.png'
+            src={require('../../assets/images/heroku.png')}
             className='heroku--icon'
           />`
           
@@ -21,7 +21,7 @@ export default function ProjectCard(props) {
         <p>GitHub Repo</p>
         <a href={props.github}>
           `<img
-            src='../src/assets/images/github-logo.png'
+            src={require('../../assets/images/github-logo.png')}
             className='git--icon'
           />`
           
