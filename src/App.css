@@ -12,7 +12,7 @@ header {
   margin-bottom: 2rem;
   color: rgb(220, 220, 220);
   min-width: 300px;
-  background-image: url("src/assets/images/vecteezy_long-banner-background_en0421_generated.jpg");
+  background-image: url("./assets/images/header-bg.jpg");
 }
 
 .headshot {
@@ -21,7 +21,6 @@ header {
   margin-left: 2rem;
   border: 2px solid black;
   box-shadow: 1px 1px 8px rgb(122, 151, 247);
-  border-radius: 100px;
   justify-content: flex-end;
 }
 
