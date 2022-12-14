@@ -170,3 +170,10 @@ header {
 .phone--number {
   margin: 0;
 }
+
+/** HOMEPAGE SECTION */
+
+.git-icon {
+  display: flex;
+  max-width: 200px;
+}
