@@ -1,19 +1,30 @@
 export default function Home() {
   return (
-    <>
-      <div className='grid1'>
-        <img src={require('../../assets/images/github.png')} className='git-icon' />
-        <img src={require('../../assets/images/linkedin.png')} className='git-icon' />
+    <div className="home--grid">
+      <div className="top--block">
+        <img
+          src={require("../../assets/images/proj-icon.png")}
+          className="git--icon"
+        />
+        <img
+          src={require("../../assets/images/github.png")}
+          className="git--icon"
+        />
       </div>
-      <div className='grid2'>
-        
+      <div>
+        <h1 className='my--title'>JAMIE LUJAN - WEB DEVELOPER</h1>
       </div>
-      <div className='grid3'>
-        
+      <div className="bottom--block">
+        <div className='contact--card'>
+          <h2>ABOUT</h2>
+          <h2>CONTACT</h2>
+          <h2>RESUME</h2>
+        </div>
+        <img
+          src={require("../../assets/images/linkedin.png")}
+          className="link--icon"
+        />
       </div>
-      <div className='grid4'>
-                
-      </div>
-    </>
-  )
+    </div>
+  );
 }

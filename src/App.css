@@ -1,8 +1,12 @@
+html {
+  background-color: black;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  background-color: rgba(102, 100, 88, 0.633);
+  background-color: black;
 }
 
 header {
@@ -173,7 +177,26 @@ header {
 
 /** HOMEPAGE SECTION */
 
-.git-icon {
-  display: flex;
-  max-width: 200px;
+.my--title {
+  text-align: center;
+  color: white;
 }
+.git--icon,
+.link--icon {
+  max-width: 30%;
+  height: auto;
+}
+.top--block,
+.bottom--block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact--card {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+

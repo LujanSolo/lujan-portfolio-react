@@ -11,19 +11,19 @@ export default function ProjectCard(props) {
       <h3 className='card--desc'>{props.desc}</h3>
       <footer className='card--footer'>
       <p>Deployed on</p>
-        <a href={props.online}>`<img
+        <a href={props.online}><img
             src={require('../../assets/images/heroku.png')}
             className='heroku--icon'
-          />`
+          />
           
         </a>
         <fr></fr>
         <p>GitHub Repo</p>
         <a href={props.github}>
-          `<img
-            src={require('../../assets/images/github-logo.png')}
+          <img
+            src={require('../../assets/images/github.png')}
             className='git--icon'
-          />`
+          />
           
         </a>
       </footer>
