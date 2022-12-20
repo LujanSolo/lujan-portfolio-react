@@ -4,7 +4,7 @@ export default function Home() {
       <div className="top--block">
         <img
           src={require("../../assets/images/proj-icon.png")}
-          className="git--icon"
+          className="proj--icon"
         />
         <img
           src={require("../../assets/images/github.png")}

@@ -177,23 +177,31 @@ header {
 
 /** HOMEPAGE SECTION */
 
+.home--grid {
+  padding: 3rem;
+  margin: 2rem;
+}
 .my--title {
+  font-family: Impact;
   text-align: center;
   color: white;
 }
 .git--icon,
-.link--icon {
+.link--icon,
+.proj--icon {
   max-width: 30%;
   height: auto;
 }
 .top--block,
 .bottom--block {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  padding: 2rem;
 }
 
 .contact--card {
+  font-family: Impact;
   display: flex;
   flex-direction: column;
   color: white;
