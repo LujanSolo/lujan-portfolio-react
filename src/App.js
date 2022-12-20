@@ -8,8 +8,8 @@ export default function App() {
   return (
     <>
     {/* <Header /> */}
-    <Home />
-    {/* <PortfolioContainer /> */}
+    {/* <Home /> */}
+    <PortfolioContainer />
     </>
     
   )

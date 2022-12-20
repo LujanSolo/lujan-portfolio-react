@@ -2,10 +2,9 @@ export default function Home() {
   return (
     <div className="home--grid">
       <div className="top--block">
-        <img
-          src={require("../../assets/images/proj-icon.png")}
-          className="proj--icon"
-        />
+          <img
+            src={require("../../assets/images/proj-icon.png")}
+            className="proj--icon" />
         <img
           src={require("../../assets/images/github.png")}
           className="git--icon"
